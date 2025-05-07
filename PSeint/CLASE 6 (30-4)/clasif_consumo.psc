@@ -1,6 +1,6 @@
 Algoritmo clasif_consumo
 	Definir kwh Como Entero
-	Imprimir "Ingrese su consumo eléctrico domiliario en kwh para categorizarlo: "; Leer kwh
+	Imprimir "Ingrese su consumo eléctrico domiciliario en kwh para categorizarlo: "; Leer kwh
 	Si kwh < 100 Entonces
 		Imprimir "Su consumo es bajo."
 	SiNo

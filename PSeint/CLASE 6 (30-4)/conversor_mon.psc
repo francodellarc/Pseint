@@ -6,8 +6,10 @@ Algoritmo conversor_mon
 	Imprimir "Ingrese la moneda de la que quiere convertir (1:USD; 2:EUR): "; Leer conv
 	Imprimir "Ingrese la cantidad a convertir: "; Leer monto
 	Segun conv Hacer
-		1: pesos=monto*dolar; Imprimir "Su cantidad de USD son $", pesos, " pesos."
-		2: pesos=monto*euro; Imprimir "Su cantidad de EUR son $", pesos, " pesos."
+		1: pesos=monto*dolar;
+			Imprimir "Su cantidad de USD son $", pesos, " pesos."
+		2: pesos=monto*euro;
+			Imprimir "Su cantidad de EUR son $", pesos, " pesos."
 	FinSegun
 
 FinAlgoritmo

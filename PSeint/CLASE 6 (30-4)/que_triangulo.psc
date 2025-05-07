@@ -7,7 +7,7 @@ Algoritmo que_triangulo
 	Si ladoA==ladoB Y ladoA==ladoC Entonces
 		Imprimir "Su triángulo es equilátero."
 	SiNo
-		Si ladoA==ladoB O ladoA==ladoC
+		Si ladoA==ladoB O ladoA==ladoC O ladoB==ladoC
 			Imprimir "Su triángulo es isóceles."
 		SiNo
 			Imprimir "Su triángulo es escaleno."
